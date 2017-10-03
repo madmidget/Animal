@@ -12,8 +12,8 @@ public class App {
 
 
 
-        List<IAnimal> animals = new ArrayList<IAnimal>();
-        animals.add(new Dog("Sixten", 5000));
+        List<IAnimal> animals = new ArrayList<>();
+        animals.add(new Dog("Sixten", 5000)); // Polymorfism
         animals.add(new Dog("Dogge", 10000));
         animals.add(new Snake("Hypno", 1000));
         animals.add(new Cat("Venus", 5000));
